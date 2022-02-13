@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -44,16 +44,17 @@
 
 #signin {
   padding: 12px 28px;
-  width: 104px;
+
   text-align: center;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   background: #21b573;
   color: #ffff;
   border-radius: 33px;
+
 }
 
 /* Header Section End  */
@@ -122,7 +123,7 @@
   padding: 12px 36px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 
@@ -131,6 +132,8 @@
 
 /* hero  Section  End */
 
+
+/*info Section Started */
 .info {
   display: flex;
   gap: 20px;
@@ -172,4 +175,212 @@
   font-size: 16px;
   line-height: 24px;
   color: #585859;
+}
+
+/*info Section  End */
+
+
+/* Online Courses Section  Started */
+
+.online-course h2{
+  margin-top: 105px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+margin-bottom: 55px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+}
+
+
+.card-img{
+  width: 330px;
+  height: 235px;
+  margin: 24px 20px;
+}
+
+.course-card{
+  width: 370px;
+  height: 483px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  margin: 0 15px;
+}
+
+.course-card h4{
+  margin-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+
+.course-card p{
+  margin-left: 20px;
+  margin-top: 3px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.course-card button{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+border: none;
+padding: 8px 28px;
+background: #21B573;
+border-radius: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+.icon-list{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-item{
+  display: flex;
+}
+.icon-item img{
+
+  width: 24px;
+height: 24px;
+}
+.icon-item p{
+
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #585859;
+margin-left: 0;
+}
+
+/* Online Courses Section  End */
+
+
+/* Testimonial Section Started */
+
+.testimonial h2{
+  text-align: center;
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+color: #000000;
+margin-top: 120px;
+margin-bottom: 70px;
+}
+
+
+.testimonial-client{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 120px;
+}
+
+
+.testimonial-client img{
+  width: 120px;
+  height: 120px;
+}
+
+.testimonial-client p{
+  display: flex;
+ 
+  align-items: center;
+  width: 580px;
+ 
+  margin-left: 50px;
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #000000;
+}
+
+/* Testimonial Section End */
+
+
+
+footer{
+  background: #282531;
+  height: 370px;
+  width: 100%;
+}
+.li-item{
+  display: flex;
+  padding-top: 50px;
+}
+.li-item-one{
+  width: 366px;
+  height: 60px;
+  margin-left: 140px;
+  margin-right: 125px;
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+
+.li-item-two{
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+.li-item-two h3{
+  font-family: Poppins;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.li-item-two li{
+  font-family: Poppins;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+footer h5{
+  margin-top: 75px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+ color: #CDCDCD;
+  
 }
